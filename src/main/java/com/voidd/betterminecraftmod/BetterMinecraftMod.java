@@ -1,6 +1,8 @@
 package com.voidd.betterminecraftmod;
 
 
+import com.voidd.betterminecraftmod.block.ModBlocks;
+import com.voidd.betterminecraftmod.items.ModItems;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -21,6 +23,10 @@ public class BetterMinecraftMod {
     public BetterMinecraftMod() {
 
         IEventBus eventBus = FMLJavaModLoadingContext.get().getModEventBus();
+
+        ModItems.register(eventBus);
+        ModBlocks.register(eventBus);
+
         eventBus.addListener(this::setup);
 
         MinecraftForge.EVENT_BUS.register(this);
