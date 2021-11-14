@@ -5,5 +5,9 @@
   "itemGroup.BetterMinecraftModTab": "Better Minecraft",
   "item.betterminecraftmod.ruby_shard": "Ruby Shard",
   "block.betterminecraftmod.ruby_ore" : "Ruby Ore",
-  "item.betterminecraftmod.ruby_carrot" : "Ruby Carrot"
+  "item.betterminecraftmod.ruby_carrot" : "Ruby Carrot",
+  "item.betterminecraftmod.sapphire_crystal": "Sapphire Crystal",
+  "item.betterminecraftmod.sapphire_necklace": "Sapphire Necklace",
+  "item.betterminecraftmod.sapphire_shard": "Sapphire Shard",
+  "block.betterminecraftmod.sapphire_ore" : "Sapphire Ore"
 }

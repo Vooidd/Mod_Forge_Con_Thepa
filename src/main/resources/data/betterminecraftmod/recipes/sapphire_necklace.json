@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "g g",
+    "/g/",
+    " B "
+  ],
+  "key": {
+    "g": {
+      "item": "minecraft:gold_ingot"
+    },
+    "/": {
+      "item": "minecraft:blaze_rod"
+    },
+    "B": {
+      "item": "betterminecraftmod:sapphire_crystal"
+    }
+  },
+  "result": {
+    "item": "betterminecraftmod:sapphire_necklace",
+    "count": 1
+  }
+}

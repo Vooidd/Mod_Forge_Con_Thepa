@@ -1,10 +1,9 @@
 package com.voidd.betterminecraftmod.items;
 
 import com.voidd.betterminecraftmod.BetterMinecraftMod;
-import net.minecraft.world.item.CreativeModeTab;
+import net.minecraft.world.food.FoodProperties;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.eventbus.api.IEventBus;
-import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fmllegacy.RegistryObject;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -20,8 +19,14 @@ public class ModItems {
     public static final RegistryObject<Item> RUBY_SHARD = ITEMS.register("ruby_shard",
             () -> new Item(new Item.Properties().tab(ModCreativeModeTab.BETTERMINECRAFT_TAB)));
     public static final RegistryObject<Item> RUBY_CARROT = ITEMS.register("ruby_carrot",
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.BETTERMINECRAFT_TAB).food
+                    (new FoodProperties.Builder().nutrition(6).saturationMod(2.4f).build())));
+    public static final RegistryObject<Item> SAPPHIRE_CRYSTAL = ITEMS.register("sapphire_crystal",
             () -> new Item(new Item.Properties().tab(ModCreativeModeTab.BETTERMINECRAFT_TAB)));
-
+    public static final RegistryObject<Item> SAPPHIRE_NECKLACE = ITEMS.register("sapphire_necklace",
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.BETTERMINECRAFT_TAB)));
+    public static final RegistryObject<Item> SAPPHIRE_SHARD = ITEMS.register("sapphire_shard",
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.BETTERMINECRAFT_TAB)));
 
     public static void register(IEventBus eventBus){
         ITEMS.register(eventBus);

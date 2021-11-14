@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "betterminecraftmod:sapphire_block"
+    }
+  ],
+  "result": {
+    "item": "betterminecraftmod:sapphire_crystal",
+    "count": 9
+  }
+}
