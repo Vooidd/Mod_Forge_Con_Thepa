@@ -3,5 +3,7 @@
   "item.betterminecraftmod.ruby_necklace": "Ruby Necklace",
   "block.betterminecraftmod.ruby_block": "Ruby Block",
   "itemGroup.BetterMinecraftModTab": "Better Minecraft",
-  "item.betterminecraftmod.ruby_shard": "Ruby Shard"
+  "item.betterminecraftmod.ruby_shard": "Ruby Shard",
+  "block.betterminecraftmod.ruby_ore" : "Ruby Ore",
+  "item.betterminecraftmod.ruby_carrot" : "Ruby Carrot"
 }
