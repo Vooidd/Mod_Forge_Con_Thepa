@@ -16,6 +16,8 @@ public class ModItems {
             () -> new Item(new Item.Properties().tab(ModCreativeModeTab.BETTERMINECRAFT_TAB)));
     public static final RegistryObject<Item> RUBY_NECKLACE = ITEMS.register("ruby_necklace",
             () -> new Item(new Item.Properties().tab(ModCreativeModeTab.BETTERMINECRAFT_TAB)));
+    public static final RegistryObject<Item> RUBY_SHARD = ITEMS.register("ruby_shard",
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.BETTERMINECRAFT_TAB)));
 
 
     public static void register(IEventBus eventBus){

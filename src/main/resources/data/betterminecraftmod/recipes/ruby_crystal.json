@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "betterminecraftmod:ruby_block"
+    }
+  ],
+  "result": {
+    "item": "betterminecraftmod:ruby_crystal",
+    "count": 9
+  }
+}
