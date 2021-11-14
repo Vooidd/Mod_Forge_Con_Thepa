@@ -1,5 +1,6 @@
 {
   "item.betterminecraftmod.ruby_crystal": "Ruby Crystal",
   "item.betterminecraftmod.ruby_necklace": "Ruby Necklace",
-  "block.betterminecraftmod.ruby_block": "Ruby Block"
+  "block.betterminecraftmod.ruby_block": "Ruby Block",
+  "itemGroup.BetterMinecraftModTab": "Better Minecraft"
 }

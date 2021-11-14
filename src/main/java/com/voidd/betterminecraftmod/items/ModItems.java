@@ -13,9 +13,9 @@ public class ModItems {
             DeferredRegister.create(ForgeRegistries.ITEMS, BetterMinecraftMod.MOD_ID);
 
     public static final RegistryObject<Item> RUBY_CRYSTAL = ITEMS.register("ruby_crystal",
-            () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.BETTERMINECRAFT_TAB)));
     public static final RegistryObject<Item> RUBY_NECKLACE = ITEMS.register("ruby_necklace",
-            () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.BETTERMINECRAFT_TAB)));
 
 
     public static void register(IEventBus eventBus){
