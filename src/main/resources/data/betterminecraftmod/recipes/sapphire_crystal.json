@@ -8,5 +8,19 @@
   "result": {
     "item": "betterminecraftmod:sapphire_crystal",
     "count": 9
+  },
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "##",
+    "##"
+  ],
+  "key": {
+    "#": {
+      "item": "betterminecraftmod:sapphire_shard"
+    }
+  },
+  "result": {
+    "item": "betterminecraftmod:sapphire_crystal",
+    "count": 1
   }
 }

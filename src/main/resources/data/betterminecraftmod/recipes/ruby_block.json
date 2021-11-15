@@ -1,17 +1,30 @@
 {
-"type": "minecraft:crafting_shaped",
-"pattern": [
-"###",
-"###",
-"###"
-],
-"key": {
-"#": {
-"item": "betterminecraftmod:ruby_crystal"
-}
-},
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+  "###",
+  "###",
+  "###"
+  ],
+  "key": {
+  "#": {
+  "item": "betterminecraftmod:ruby_crystal"
+  }
+  },
 "result": {
   "item": "betterminecraftmod:ruby_block",
   "count": 1
+},
+"type": "minecraft:crafting_shaped",
+"pattern": [
+"#"
+],
+"key": {
+"#": {
+"item": "betterminecraftmod:ruby_block"
+}
+},
+"result": {
+"item": "betterminecraftmod:ruby_crystal",
+"count": 9
 }
 }
