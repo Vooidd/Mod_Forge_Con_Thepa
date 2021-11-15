@@ -21,10 +21,13 @@ public class ModBlocks {
             DeferredRegister.create(ForgeRegistries.BLOCKS, BetterMinecraftMod.MOD_ID);
 
     public static final RegistryObject<Block> RUBY_BLOCK = registerBlock("ruby_block",
-            () -> new Block(BlockBehaviour.Properties.of(Material.METAL).strength(6f).requiresCorrectToolForDrops()));
+            () -> new Block(BlockBehaviour.Properties.of(Material.METAL).strength(3f).requiresCorrectToolForDrops()));
 
     public static final RegistryObject<Block> RUBY_ORE = registerBlock("ruby_ore",
-            () -> new Block(BlockBehaviour.Properties.of(Material.METAL).strength(6f).requiresCorrectToolForDrops()));
+            () -> new Block(BlockBehaviour.Properties.of(Material.METAL).strength(3f).requiresCorrectToolForDrops()));
+
+    public static final RegistryObject<Block> SAPPHIRE_BLOCK = registerBlock("sapphire_block",
+            () -> new Block(BlockBehaviour.Properties.of(Material.METAL).strength(3f).requiresCorrectToolForDrops()));
 
     private static <T extends Block>RegistryObject<T> registerBlock(String name, Supplier<T> block, CreativeModeTab tab) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);

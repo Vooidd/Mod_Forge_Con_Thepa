@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "betterminecraftmod:ruby_block",
+    "betterminecraftmod:sapphire_block",
+    "betterminecraftmod:ruby_ore"
+  ]
+}
